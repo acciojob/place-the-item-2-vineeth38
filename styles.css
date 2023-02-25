@@ -1,16 +1,25 @@
-.flex-container{
+.holder{
 	display: flex;
-	height:200px;
+		font-size:50px;
 	justify-content:center;
-	align-items: center;
-	background-color:dodgerblue;
+	flex-wrap:wrap;
 }
-.flex-container > div{
-	background-color:green;
+.item-3{
+	height:100px;
 	width:100px;
-	margin:10px;
-	text-align:center;
-	line-height:75px;
-	font-size:30px;
+	background-color:green;
+	color:black;
+}
+.item-1{
+	height:100px;
+	width:100px;
+	background-color:red;
+	color:black;
+}
+.item-2{
+	height:100px;
+	width:100px;
+	background-color:blue;
+	color:black;
 }
 /* Your CSS Code here. */
